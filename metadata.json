@@ -1,0 +1,14 @@
+{
+  "name": "mmfabish-httpd",
+  "version": "0.1.0",
+  "author": "mmfabish",
+  "summary": "Configures Apache on a CentOS 7 machine.",
+  "license": "Apache 2.0",
+  "source": "https://github.com/mmfabish/puppet-apache.git",
+  "project_page": "https://github.com/mmfabish/puppet-apache",
+  "issues_url": "https://github.com/mmfabish/puppet-apache/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ]
+}
+
