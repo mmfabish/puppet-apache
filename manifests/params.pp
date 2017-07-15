@@ -10,4 +10,7 @@ class httpd::params {
   $service_name = 'httpd'
   $ensure       = 'running'
   $enable       = true
+
+  # apache configuration
+  $httpd_port = 80
 }
